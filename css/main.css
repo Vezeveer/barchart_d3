@@ -1,0 +1,27 @@
+.bar:hover{
+  fill: brown;
+}
+
+#title{
+  text-align: center;
+}
+
+#tooltip{
+  color: red;
+  background: rgba(173, 211, 173, 0.733);
+  width: 100px;
+  position: absolute;
+  top: 450px;
+  left: 40px;
+  border-radius: 5px;
+  display: none;
+}
+
+.tooltippro{
+  opacity: 0;
+  position: absolute;
+  z-index: 11;
+}
+.tooltiptoggle{
+  opacity: 1;
+}
